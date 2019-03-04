@@ -1,0 +1,72 @@
+*{margin:0px; padding:0px;font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"}
+
+body {background-color: gray;}
+#header { overflow:hidden; height:110px; width:100%; background:#B50092;}
+#logo {float:left; width:20%; height:110px}
+#logo img{ animation: logo alternate infinite 3s; width:50%; height:95px; margin-left: 5%;margin-top: 8px;}
+@keyframes logo{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+
+
+#link{width: 80%; float: left;}
+#link ul{list-style-type: none;float: right;margin-right: 20px}
+#link ul li{float: left;margin-left: 15px;line-height: 30px}
+#link ul li a{text-decoration: none; color: #F6E546;font-size: 14px;}
+
+#Search input[type=text]{border: 3px solid #F4FF43; margin-top: 10px; width: 40%; height: 30px; outline: none; padding: 1.2%; border-top-left-radius: 3px; border-bottom-left-radius: 3px;border-top-right-radius: 3px; border-bottom-right-radius: 3px;}
+
+#Search_btn{margin-top: 10px; width: 8%; height: 40px; outline: none; border-width: 0px;font-weight: bold; background:#4F0341;color: aliceblue;margin-left:-0.3%;}
+
+#Search button {margin-top: 10px; width: 8%; height: 40px; outline: none; border-width: 0px;font-weight: bold; background:#4F0341;color: aliceblue;}
+#nevbar{width: 100%; height: 45px; background: #400040; overflow:hidden;}
+#nevbar ul{list-style-type:none;padding-left: 2%;}
+#nevbar ul li{float:left; width: 160px;height: 45px; text-align: center; line-height: 45px;}
+#nevbar ul li a{ text-shadow:1px 1px 1px #0000CC; color: #FFFFFF; text-decorations:none;font-size: 14px;}
+#nevbar ul li:hover{background: #B50092;border-top: 3px solid #FFFFFF;transition:all 0.5s} 
+
+#nevbar li ul{ box-shadow:3px 3px 3px #000; border-top-right-radius:3px; border-bottom-right-radius:3px; border-bottom-left-radius:3px; margin-top:-4px; display:none; z-index:999; position:absolute; background:#400040; width:160px; padding:0%}
+#nevbar li:hover ul{ display:block}
+#nevbar li ul li{ border-bottom:1px solid #800080; float:none; width:100%; text-align:left;}
+#nevbar li ul li a{ padding-left:5%; font-size:12px;}
+#nevbar li ul li:hover a{ padding-left:13%; transition:all 0.5s}
+
+#bodyleft{ margin-top:-20px; float:left; width:68%; padding:1%; background: #fff;}
+#bodyleft h2{box-shadow:1px 1px 1px #0000CC; border-top-left-radius:3px; border-top-right-radius:3px; background:#400040; text-align: center; height:40px; line-height:40px; font-size: 1.5em; color:#FFf; text-shadow: 2px 2px 2px Blue;}
+h2 {animation-duration: 5s; animation-name: fadeIn;}
+@keyframes fadeIn {from{ opacity:0;} to{ opacity:1;}}
+#slider{ width:100%; height:350px;}
+#slider img{width:100%; height:350px;}
+#bodyleft h3{box-shadow:1.5px 1.5px 1.5px #0000CC; margin-top: 10px; border-top-left-radius:3px; border-top-right-radius:3px; background:#400040; text-align: left; height:40px; line-height:40px; font-size: 1em; color:#FFF; text-shadow: 2px 2px 2px Blue; padding-left:3px; border-radius:3px;}
+#bodyleft ul{list-style-type:none;}
+#bodyleft ul li{ margin-left:20px; border-bottom:3px solid #800080; border-right:2px solid #e6e6e6; border-left:2px solid #e6e6e6; border-top:2px solid #e6e6e6; float:left; width:30%; height:320px;}
+#bodyleft ul li h4{ font-size:14px; text-align:center; margin-top:10px;}
+#bodyleft ul li a{ text-decoration:none; color:#000;}
+#bodyleft ul li a img{ width:100%; height:280px;}
+#bodyleft ul li:hover{ border-left:2px solid #800080; border-top:2px solid #800080; border-right:2px solid #800080;}
+#bodyright{ margin-top:-20px; float:left; width:29%; background:#fff; padding:1% 1% 1% 0%; text-decoration:none}
+#bodyright h3{ box-shadow:1.5px 1.5px 1.5px #0000CC; text-decoration:none; border-top-left-radius:3px; border-top-right-radius:3px; background:#400040; text-align: center; height:40px; line-height:40px; font-size: 1em; color:#FFf; text-shadow: 2px 2px 2px Blue; padding-left:3px; border-radius:3px;}
+
+#bodyleft ul li h5{ font-size:14px; text-align:center; margin-top:10px;}
+
+h3 {animation-duration: 5s; animation-name: fadeIn;}
+@keyframes fadeIn {from{ opacity:0;} to{ opacity:1;}}
+#bodyright ul{list-style-type:none; margin-top:3px;}
+#bodyright ul li{width:100%; margin-bottom:10px;}
+#bodyright ul li img{ width:100%; height: 207.6px}
+#footer h4{ background:#400040; width:100%; height:30px; text-align:center; color:#FFF; font-size:16px; text-shadow: 2px 2px 2px Blue;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
